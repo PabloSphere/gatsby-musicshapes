@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'MusicShapes',
     author: 'Alan Thompson',
-    description: 'Static site',
+    description: 'Music Therapy Services in New York City',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

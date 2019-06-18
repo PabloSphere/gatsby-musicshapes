@@ -266,7 +266,11 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a href="#" className="icon fa-twitter">
+              <a
+                href="https://twitter.com/musicshapespllc"
+                className="icon fa-twitter"
+                target="_blank"
+              >
                 <span className="label">Twitter</span>
               </a>
             </li>
@@ -274,6 +278,7 @@ class Main extends React.Component {
               <a
                 href="https://www.facebook.com/musicshapes/"
                 className="icon fa-facebook"
+                target="_blank"
               >
                 <span className="label">Facebook</span>
               </a>
@@ -282,6 +287,7 @@ class Main extends React.Component {
               <a
                 href="https://www.instagram.com/musicshapescat/"
                 className="icon fa-instagram"
+                target="_blank"
               >
                 <span className="label">Instagram</span>
               </a>
