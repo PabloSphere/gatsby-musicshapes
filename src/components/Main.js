@@ -23,36 +23,114 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
+          id="about"
+          className={`${this.props.article === 'about' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">About</h2>
+          {/* <span className="image main">
+            <img src={pic03} alt="" />
+          </span> */}
+          <p>
+            MusicShapes Creative Arts Therapy, PLLC is a Music Therapy
+            consulting agency serving individuals with emotional, physical,
+            developmental, and social needs through creative musical experiences
+            to promote growth, development, and improve quality of life.
+          </p>
+          <p>
+            We provide a variety of Music Therapy services, including:
+            <br />
+            <ul>
+              <li>Individual & Group Music Therapy</li>
+              <li>Adaptive Music Lessons</li>
+              <li>Music Therapy Studio</li>
+              <li>Music Therapy Performance Group</li>
+              <li>The Home & Community Music Project</li>
+            </ul>
+          </p>
+          <p>
+            During our initial consultation we will explore and identify the
+            most effective music therapy services to meet your needs.
+          </p>
+          <p>
+            Our team of therapists are Board-Certified Music Therapists (MT-BC),
+            and/or Licensed Creative Arts Therapist (LCAT), and are insured
+            under Professional Liability Insurance.
+          </p>
+          <p>
+            ORGANIZATIONS SERVED <br />
+            <ul>
+              <li>ANIBIC</li>
+              <li>Community Mainstream Associates, Inc.</li>
+              <li>Covenant House NY</li>
+              <li>Incarnation Children's Center</li>
+              <li>Jewish Board of Family & Children Services</li>
+              <li>JCCA Waivers Services (OMH approved Waiver Provider)</li>
+              <li>Shield Institute</li>
+              <li>WellLife Network</li>
+            </ul>
+          </p>
+          <p>
+            MusicShapes has some exciting endeavors in the works. In addition to
+            our clinical services, we are developing a rich Continuing Education
+            curriculum for Music Therapists and Health Care Providers. Watch
+            this space for course offerings!
+          </p>
+          {close}
+        </article>
+        <article
+          id="team"
           className={`${this.props.article === 'team' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Our Team</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={pic01} alt="" />
-          </span>
+          </span> */}
 
           <p>
             ALAN THOMPSON, MT-BC, NRMT, LCAT <br />
             <i>Founder | Clinical Supervisor | Music Therapist</i> <br />
             Alan is a graduate of the Music Therapy Master’s program at New York
-            University, a board certified Music Therapist, Licensed Creative
-            Arts Therapist, a Certified Nordoff-Robbins Music Therapist. He has
-            15 years experience as a music therapist working with a variety of
-            populations across New York City, including children and adults with
-            developmental, physical, and emotional disabilities. He has worked
-            extensively in adult and child inpatient and outpatient psychiatry,
-            including Bellevue Hospital, Jacobi Hospital, The Ryan White Center,
-            and Mt. Sinai-St. Luke’s Hospital. He currently runs the Music
-            Therapy Program at Covenant House NY, New York Cit'y’s largest
-            provider serving youth experiencing homelessness. Alan frequently
-            conducts workshops and presentations on his work as both educator
-            and in promotion of music therapy.{''} Alan is a pianist,
-            song-writer, and producer. He is also a software engineer, loves
-            plants, documentaries, and is continuously exploring and developing
-            his culinary expressions.
+            University, a{' '}
+            <a href="https://www.cbmt.org/about-certification/" target="_blank">
+              Board Certified Music Therapist
+            </a>
+            ,{' '}
+            <a
+              href="http://www.op.nysed.gov/prof/mhp/catlic.htm"
+              target="_blank"
+            >
+              Licensed Creative Arts Therapist
+            </a>
+            , and a{' '}
+            <a
+              href="https://steinhardt.nyu.edu/music/nordoff/therapy/nordoff"
+              target="_blank"
+            >
+              Certified Nordoff-Robbins Music Therapist
+            </a>
+            . He has 15+ years experience as a music therapist working with a
+            variety of populations across New York City, including children and
+            adults with developmental, physical, and emotional disabilities. He
+            has worked extensively in adult and child inpatient and outpatient
+            psychiatry, including Bellevue Hospital, Jacobi Hospital, The Ryan
+            White Center, Union Settlement, Incarnation Children's Center, and
+            Mt. Sinai-St. Luke’s Hospital. He currently runs the Music Therapy
+            Program at{' '}
+            <a href="https://ny.covenanthouse.org/" target="_blank">
+              Covenant House NY
+            </a>
+            , New York Cit'y’s largest provider serving youth experiencing
+            homelessness. Alan frequently conducts workshops and presentations
+            on his work as both educator and in promotion of music therapy.{''}{' '}
+            Alan is a pianist, song-writer, and producer. He is also a software
+            engineer, loves plants, documentaries, and is continuously exploring
+            and developing his culinary expressions.
           </p>
           <p>
             MICHAEL DEGROTTOLE <br />
@@ -88,28 +166,22 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Services</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={pic02} alt="" />
-          </span>
+          </span> */}
           <p>
             We provide a variety of Music Therapy services, including Individual
             & Group Music Therapy, Adaptive Music Lessons, Music Therapy Studio,
-            Music Therapy Performance, and The Home & Community Music Project.{' '}
+            Music Therapy Group Performance, and The Home & Community Music
+            Project.{' '}
           </p>
           <p>
-            Our therapists are Board-Certified Music Therapists (MT-BC) and/or
-            Licensed Creative Arts Therapists (LCAT) and carry professional
-            liability insurance. Therapists participate in ongoing clinical
-            supervision.{' '}
+            During our initial consultation we will explore and identify the
+            most effective music therapy services to meet your needs.
           </p>
           <p>
-            MusicShapes has some exciting endeavors in the works. In addition to
-            our clinical services, we are developing a rich Continuing Education
-            curriculum for Music Therapists and Health Care Providers. Watch
-            this space for course offerings!
-          </p>
-          <p>
-            MUSIC THERAPY ASSESSMENT <br />
+            MUSIC THERAPY ASSESSMENT
+            <br />
             Every Music Therapy service is initiated with an assessment and
             development of a treatment plan. MusicShapes follows the guidelines
             set forth by the{' '}
@@ -118,6 +190,8 @@ class Main extends React.Component {
               American Music Therapy Association of Clinical Practice
             </a>
             :<br />
+          </p>
+          <p>
             <ul>
               <li>
                 The music therapy assessment will include the general categories
@@ -187,48 +261,41 @@ class Main extends React.Component {
             incorporate others when clinically appropriate
           </p>
           <p>
-            MUSIC PERFORMANCE
+            MUSIC THERAPY GROUP PERFORMANCE
             <br />
-            GROUP Music Performance Groups are more structured than typical
+            Music Therapy Performance Groups are more structured than typical
             music therapy groups. The music therapist supports group members as
             they make decisions and collaborate on performing original music or
             original renditions of pre-existing songs.
           </p>
           <p>
             THE HOME & COMMUNITY MUSIC PROJECT <br />
-            The Home & Community Music Therapy Project (HCMP) aims to provide
-            individual music therapy to children and adolescents with complex
-            mental health needs in their home and/or community. Over the course
-            of 12-weeks the client and therapist will follow a 6-step process,
-            including: introduction to HCMP, assessment, lyric writing, music
-            composition, recording, and termination.
+            The Home & Community Music Therapy Project (HCMP) was originally
+            developed for The Office of Mental Health Waiver Services, which
+            aims to serve children and adolescents with complex mental health
+            needs in their home and/or community. Over the course of 12-weeks
+            the client and therapist will follow a 6-step process, including:
+            introduction to HCMP, assessment, lyric writing, music composition,
+            recording, and termination.
           </p>
           {close}
         </article>
-
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="education"
+          className={`${this.props.article === 'education' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
-          <span className="image main">
+          <h2 className="major">Education</h2>
+          {/* <span className="image main">
             <img src={pic03} alt="" />
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          </span> */}
+
+          <p>Stay tuned for course offerings!</p>
+
           {close}
         </article>
-
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${

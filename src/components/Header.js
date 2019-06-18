@@ -7,17 +7,28 @@ const Header = props => (
     <div className="logo">{<span className="icon fa-diamond"></span>}</div>
     <div className="content">
       <div className="inner">
-        <h1>MusicShapes Creative Arts Therapy, PLLC</h1>
+        <h2>MusicShapes Creative Arts Therapy, PLLC</h2>
+        <h3>Shaping Lives Through Music</h3>
         <p>
-          MusicShapes Creative Arts Therapy, PLLC, serves individuals with
-          emotional, physical, developmental, and social needs through creative
-          musical experiences to promote growth, development, and improve
-          quality of life.
+          MusicShapes Creative Arts Therapy, PLLC, is a Music Therapy consulting
+          agency serving individuals with emotional, physical, developmental,
+          and social needs through creative musical experiences to promote
+          growth, development, and improve quality of life.
         </p>
       </div>
     </div>
     <nav>
       <ul>
+        <li>
+          <a
+            href="javascript:;"
+            onClick={() => {
+              props.onOpenArticle('about')
+            }}
+          >
+            About
+          </a>
+        </li>
         <li>
           <a
             href="javascript:;"
@@ -36,6 +47,16 @@ const Header = props => (
             }}
           >
             Services
+          </a>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            onClick={() => {
+              props.onOpenArticle('education')
+            }}
+          >
+            Education
           </a>
         </li>
         <li>
