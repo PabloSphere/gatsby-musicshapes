@@ -166,7 +166,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Music Therapy Services</h2>
+          <h2 className="major">Services</h2>
           {/* <span className="image main">
             <img src={pic02} alt="" />
           </span> */}
