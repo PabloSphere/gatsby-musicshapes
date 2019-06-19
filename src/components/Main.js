@@ -35,9 +35,10 @@ class Main extends React.Component {
           </span> */}
           <p>
             MusicShapes Creative Arts Therapy, PLLC is a Music Therapy
-            consulting agency serving individuals with emotional, physical,
-            developmental, and social needs through creative musical experiences
-            to promote growth, development, and improve quality of life.
+            consulting agency specializing in serving individuals with
+            emotional, physical, developmental, and social needs through
+            creative musical experiences to promote growth, development, and
+            improve quality of life.
           </p>
           <p>
             We provide a variety of Music Therapy services, including:
@@ -56,7 +57,7 @@ class Main extends React.Component {
           </p>
           <p>
             Our team of therapists are Board-Certified Music Therapists (MT-BC),
-            and/or Licensed Creative Arts Therapist (LCAT), and are insured
+            and/or Licensed Creative Arts Therapists (LCAT), and are insured
             under Professional Liability Insurance.
           </p>
           <p>
@@ -75,8 +76,8 @@ class Main extends React.Component {
           <p>
             MusicShapes has some exciting endeavors in the works. In addition to
             our clinical services, we are developing a rich Continuing Education
-            curriculum for Music Therapists and Health Care Providers. Watch
-            this space for course offerings!
+            curriculum for Music Therapists and Health Care Providers. Watch in
+            our Education space for more details.
           </p>
           {close}
         </article>
