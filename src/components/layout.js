@@ -35,7 +35,7 @@ const Layout = ({ children, location }) => {
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'musicshapes', content: 'music therapy' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'keywords', content: 'music, something' },
             ]}
           >
             <html lang="en" />
