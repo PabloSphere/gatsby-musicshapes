@@ -293,7 +293,9 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span> */}
 
-          <p>Stay tuned for course offerings!</p>
+          <p>
+            Stay tuned for course offerings for continuing education credits!
+          </p>
 
           {close}
         </article>
@@ -305,11 +307,14 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
+          <p>We would love to hear from you! </p>
+
           <p>
-            We would love to hear from you. Contact us to schedule a free
-            30-minute phone consultation, or send us any questions you have
-            about Music Therapy and our services.{' '}
+            <a href="mailto: alanthompsonlcat@gmail.com">Contact</a> us to
+            schedule a free 30-minute phone consultation, or send us any
+            questions you have about Music Therapy and our services.{' '}
           </p>
+
           {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
