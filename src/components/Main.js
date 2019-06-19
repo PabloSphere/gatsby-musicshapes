@@ -309,7 +309,7 @@ class Main extends React.Component {
             30-minute phone consultation, or send us any questions you have
             about Music Therapy and our services.{' '}
           </p>
-          <form method="post" action="#">
+          {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -330,7 +330,7 @@ class Main extends React.Component {
                 <input type="reset" value="Reset" />
               </li>
             </ul>
-          </form>
+          </form> */}
           <ul className="icons">
             <li>
               <a

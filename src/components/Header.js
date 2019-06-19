@@ -11,9 +11,9 @@ const Header = props => (
         <h3>Shaping Lives Through Music</h3>
         <p>
           MusicShapes Creative Arts Therapy, PLLC, is a Music Therapy consulting
-          agency serving individuals with emotional, physical, developmental,
-          and social needs through creative musical experiences to promote
-          growth, development, and improve quality of life.
+          agency specializing in serving individuals with emotional, physical,
+          developmental, and social needs through creative musical experiences
+          to promote growth, development, and improve quality of life.
         </p>
       </div>
     </div>
