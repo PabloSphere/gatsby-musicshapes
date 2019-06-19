@@ -7,8 +7,7 @@ const Header = props => (
     <div className="logo">{<span className="icon fa-diamond"></span>}</div>
     <div className="content">
       <div className="inner">
-        <h2>MusicShapes Creative Arts Therapy, PLLC</h2>
-        <h3>Shaping Lives Through Music</h3>
+        <h2>Shaping Lives Through Music</h2>
         <p>
           MusicShapes Creative Arts Therapy, PLLC, is a Music Therapy consulting
           agency specializing in serving individuals with emotional, physical,
