@@ -129,8 +129,8 @@ class Main extends React.Component {
             homelessness. Alan frequently conducts workshops and presentations
             on his work as both educator and in promotion of music therapy.{''}{' '}
             Alan is a pianist, song-writer, and producer. He is also a software
-            engineer, loves plants, documentaries, and is continuously exploring
-            and developing his culinary expressions.
+            developer, has a passion for plants, and the creative process of
+            cooking.
           </p>
           <p>
             MICHAEL DEGROTTOLE <br />
