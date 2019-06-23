@@ -312,9 +312,8 @@ class Main extends React.Component {
           <p>We would love to hear from you! </p>
 
           <p>
-            <a href="mailto: alanthompsonlcat@gmail.com">Contact</a> us to
-            schedule a free 30-minute phone consultation, or send us any
-            questions you have about Music Therapy and our services.{' '}
+            Contact us to schedule a free 30-minute phone consultation, or send
+            us any questions you have about Music Therapy and our services.{' '}
           </p>
 
           <form
