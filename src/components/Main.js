@@ -313,8 +313,7 @@ class Main extends React.Component {
 
           <p>
             Contact us to schedule a free 30-minute phone consultation, or send
-            us any questions you have about Music Therapy and our services.
-            Submit form below, or you can email us alanthompsonlcat@gmail.com{' '}
+            us any questions you have about Music Therapy and our services.{' '}
           </p>
 
           <form
