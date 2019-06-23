@@ -54,7 +54,8 @@
         'filter #{_duration(article)} ease-in-out'
       )
     );
-    background-image: url('../../images/Alive.jpg');
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

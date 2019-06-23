@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import musicshapeslogo from '../images/musicshapeslogo.png'
 
 class Main extends React.Component {
   render() {
@@ -29,10 +30,11 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
+          <img src={musicshapeslogo} alt="" />
           <h2 className="major">About</h2>
-          {/* <span className="image main">
-            <img src={pic03} alt="" />
-          </span> */}
+          {/* <span className="image main"> */}
+
+          {/* </span> */}
           <p>
             MusicShapes Creative Arts Therapy, PLLC is a Music Therapy
             consulting agency specializing in serving individuals with
@@ -315,7 +317,15 @@ class Main extends React.Component {
             questions you have about Music Therapy and our services.{' '}
           </p>
 
-          {/* <form method="post" action="#">
+          <form
+            name="contact"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            action="#"
+          >
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -336,7 +346,8 @@ class Main extends React.Component {
                 <input type="reset" value="Reset" />
               </li>
             </ul>
-          </form> */}
+          </form>
+
           <ul className="icons">
             <li>
               <a
