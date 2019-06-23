@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-
+import musicshapeslogo from '../images/ms-logo20x20.png'
 import '../assets/scss/main.scss'
 
 const Layout = ({ children, location }) => {
@@ -34,10 +34,18 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'title', content: 'MusicShapes' },
+              { name: 'title', content: 'MusicShapes Creative Arts Therapy' },
               {
-                name: 'music therapy, new york city music therapy,',
-                content: 'music therapy, music therapy new york city',
+                name: 'keywords,',
+                content:
+                  'music therapy, nyc music therapists, alan thompson music therapist, alan thompson, music therapy new york city',
+              },
+            ]}
+            link={[
+              {
+                rel: 'shortcut icon',
+                type: 'image/png',
+                href: `${musicshapeslogo}`,
               },
             ]}
           >
