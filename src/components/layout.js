@@ -36,7 +36,7 @@ const Layout = ({ children, location }) => {
             meta={[
               { name: 'title', content: 'MusicShapes' },
               {
-                name: 'keywords',
+                name: 'music therapy, new york city music therapy,',
                 content: 'music therapy, music therapy new york city',
               },
             ]}
