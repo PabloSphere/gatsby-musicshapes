@@ -79,8 +79,8 @@ class Main extends React.Component {
           <p>
             MusicShapes has some exciting endeavors in the works. In addition to
             our clinical services, we are developing a rich Continuing Education
-            curriculum for Music Therapists and Health Care Providers. Watch in
-            our Education space for more details.
+            curriculum for Music Therapists and Health Care Providers. Watch our
+            Education space for more details.
           </p>
           {close}
         </article>
