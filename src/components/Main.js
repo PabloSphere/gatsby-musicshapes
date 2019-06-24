@@ -40,7 +40,8 @@ class Main extends React.Component {
             consulting agency specializing in serving individuals with
             emotional, physical, developmental, and social needs through
             creative musical experiences to promote growth, development, and
-            improve quality of life.
+            improve quality of life. Our services are offered throughout the New
+            York City Metropolitan Area.
           </p>
           <p>
             We provide a variety of Music Therapy services, including:
@@ -178,7 +179,8 @@ class Main extends React.Component {
             We provide a variety of Music Therapy services, including Individual
             & Group Music Therapy, Adaptive Music Lessons, Music Therapy Studio,
             Music Therapy Group Performance, and The Home & Community Music
-            Project.{' '}
+            Project. Our services are offered throughout the New York City
+            Metropolitan Area.{' '}
           </p>
           <p>
             During our initial consultation we will explore and identify the
