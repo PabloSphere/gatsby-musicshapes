@@ -123,10 +123,11 @@ class Main extends React.Component {
             variety of populations across New York City, including children and
             adults with developmental, physical, and emotional disabilities. He
             has worked extensively in adult and child inpatient and outpatient
-            psychiatry, including Bellevue Hospital, Jacobi Hospital, The Ryan
-            White Center, Union Settlement, Incarnation Children's Center, and
-            Mt. Sinai-St. Luke’s Hospital. He currently runs the Music Therapy
-            Program at{' '}
+            psychiatry, including Bellevue Hospital (Manhattan), Jacobi Hospital
+            (Bronx), The Ryan White Center(Bronx), Union Settlement(Harlem),
+            Incarnation Children's Center (Washington Heights), Mt. Sinai-St.
+            Luke’s Hospital (Upper West Side), and Bronx Lebanon Hospital
+            (Bronx). He currently runs the Music Therapy Program at{' '}
             <a href="https://ny.covenanthouse.org/" target="_blank">
               Covenant House NY
             </a>
