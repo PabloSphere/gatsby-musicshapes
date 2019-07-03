@@ -5,7 +5,7 @@ const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
     <p className="copyright">
       Developed By: {''}
-      Alan Thompson @ Flat9.io Credits:{' '}
+      Alan Thompson @ Flat9.io | Credits:{' '}
       <a href="https://html5up.net">HTML5 UP</a>
     </p>
   </footer>
