@@ -106,6 +106,7 @@ class Main extends React.Component {
               href="http://www.op.nysed.gov/prof/mhp/catlic.htm"
               target="_blank"
             >
+              {' '}
               Licensed Creative Arts Therapist
             </a>
             , and a{' '}
