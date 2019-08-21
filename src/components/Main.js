@@ -101,7 +101,7 @@ class Main extends React.Component {
             ALAN THOMPSON, NRMT, LCAT <br />
             <i>Founder | Clinical Supervisor | Music Therapist</i> <br />
             Alan is a graduate of the Music Therapy Master’s program at New York
-            University,
+            University, a
             <a
               href="http://www.op.nysed.gov/prof/mhp/catlic.htm"
               target="_blank"
