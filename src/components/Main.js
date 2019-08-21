@@ -98,14 +98,10 @@ class Main extends React.Component {
           </span> */}
 
           <p>
-            ALAN THOMPSON, MT-BC, NRMT, LCAT <br />
+            ALAN THOMPSON, NRMT, LCAT <br />
             <i>Founder | Clinical Supervisor | Music Therapist</i> <br />
             Alan is a graduate of the Music Therapy Master’s program at New York
-            University, a{' '}
-            <a href="https://www.cbmt.org/about-certification/" target="_blank">
-              Board Certified Music Therapist
-            </a>
-            ,{' '}
+            University,
             <a
               href="http://www.op.nysed.gov/prof/mhp/catlic.htm"
               target="_blank"
