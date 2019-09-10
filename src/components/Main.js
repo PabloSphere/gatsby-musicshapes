@@ -27,7 +27,7 @@ class Main extends React.Component {
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <img src={musicshapeslogo} alt="" />
@@ -88,7 +88,7 @@ class Main extends React.Component {
           id="team"
           className={`${this.props.article === 'team' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <img src={musicshapeslogo} alt="" />
@@ -98,16 +98,24 @@ class Main extends React.Component {
           </span> */}
 
           <p>
-            ALAN THOMPSON, NRMT, LCAT <br />
+            ALAN THOMPSON, MT-BC, LCAT, NRMT <br />
             <i>Founder | Clinical Supervisor | Music Therapist</i> <br />
             Alan is a graduate of the Music Therapy Master’s program at New York
-            University, a
+            University, a    <a
+              href="https://www.cbmt.org/about-certification/"
+              target="_blank"
+            >
+              {' '}
+              Board Certified Music Therapist,
+            </a>
+
+
             <a
               href="http://www.op.nysed.gov/prof/mhp/catlic.htm"
               target="_blank"
             >
               {' '}
-              Licensed Creative Arts Therapist
+              a Licensed Creative Arts Therapist
             </a>
             , and a{' '}
             <a
@@ -164,7 +172,7 @@ class Main extends React.Component {
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <img src={musicshapeslogo} alt="" />
@@ -288,7 +296,7 @@ class Main extends React.Component {
           id="education"
           className={`${this.props.article === 'education' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <img src={musicshapeslogo} alt="" />
@@ -307,7 +315,7 @@ class Main extends React.Component {
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <img src={musicshapeslogo} alt="" />
