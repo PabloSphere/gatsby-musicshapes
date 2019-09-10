@@ -137,7 +137,7 @@ class Main extends React.Component {
               Covenant House NY
             </a>
             , New York Cit'y’s largest provider serving youth experiencing
-            homelessness. Alan frequently conducts workshops and presentations
+            homelessness, as well as his private practice in Brooklyn, NY. Alan frequently conducts workshops and presentations
             on his work as both educator and in promotion of music therapy.{''}{' '}
             Alan is a pianist, song-writer, and producer. He is also a software
             developer, has an affinity for plants, and cooking.
