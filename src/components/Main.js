@@ -97,7 +97,7 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span> */}
 
-          <p>
+<p>
             ALAN THOMPSON, MT-BC, LCAT, NRMT <br />
             <i>Founder | Clinical Supervisor | Music Therapist</i> <br />
             Alan is a graduate of the Music Therapy Master’s program at New York
@@ -132,15 +132,13 @@ class Main extends React.Component {
             (Bronx), The Ryan White Center(Bronx), Union Settlement(Harlem),
             Incarnation Children's Center (Washington Heights), Mt. Sinai-St.
             Luke’s Hospital (Upper West Side), and Bronx Lebanon Hospital
-            (Bronx). He currently runs the Music Therapy Program at{' '}
-            <a href="https://ny.covenanthouse.org/" target="_blank">
-              Covenant House NY
-            </a>
-            , New York Cit'y’s largest provider serving youth experiencing
-            homelessness, as well as his private practice in Brooklyn, NY. Alan frequently conducts workshops and presentations
+            (Bronx). He currently works a music therapist for the Department of Veterans Affairs
+            and runs a private practice, <a
+              href="http://www.ditmastherapy.com"
+              target="_blank"
+            >Ditmas Therapy </a>, in Brooklyn, NY. Alan frequently conducts workshops and presentations
             on his work as both educator and in promotion of music therapy.{''}{' '}
-            Alan is a pianist, song-writer, and producer. He is also a software
-            developer, has an affinity for plants, and cooking.
+            
           </p>
           <p>
             MICHAEL DEGROTTOLE <br />
